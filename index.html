@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/output.css">
-    <title>Document</title>
-</head>
-<body>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./dist/font-awesome.min.css" />
+    <title>سایت شخصی طاها عطایی</title>
+  </head>
+  <body>
+    <header>
+      <nav class="max-w-[1110px] font-bold text-gray-light mx-auto flex justify-center items-center bg-dark rounded-b-xl min-h-[70px] sticky px-10">
+        <div class="w-2/3">
 
-    <h1>Hello World!</h1>
+            <button class="rounded block sm:hidden border border-gray-light px-4 py-2">
+                <i class="fa fa-bars">
+
+                </i>
+            </button>
+
+          <ul class="sm:flex space-x-5 lg:space-x-16 justify-center hidden">
+            <li class="text-white transition-colors duration-300">
+              <a href="#">خانه</a>
+            </li>
+            <li class="hover:text-white transition-colors duration-300">
+              <a href="#">مطالعات موردی</a>
+            </li>
+            <li class="hover:text-white transition-colors duration-300">
+              <a href="#">نظرات</a>
+            </li>
+            <li class="hover:text-white transition-colors duration-300">
+              <a href="#">کارهای اخیر</a>
+            </li>
+            <li class="hover:text-white transition-colors duration-300">
+              <a href="#">تماس</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-1/3">
+          <ul class="flex space-x-6 justify-center">
+            <li class="hover:text-white cursor-pointer transition-colors duration-300">
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li class="hover:text-white cursor-pointer transition-colors duration-300">
+              <i class="fa fa-behance"></i>
+            </li>
+            <li class="hover:text-white cursor-pointer transition-colors duration-300">
+              <i class="fa fa-linkedin"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="-mt-20">
+      <section id="hero-section" class="bg-[#080808] pt-36 pb-10 w-full">
+        <div class="container flex gap-x-28 max-w-[1110px] justify-center items-center">
+          <div class="flex flex-col space-y-10 w-2/3 py-6 px-10 max-w-[538px]">
+            <h1 class="text-white font-bold text-5xl">طاها عطایی</h1>
+
+            <p class="text-gray-light text-justify">
+              توسعه‌دهنده وب و طراح رابط کاربری با تجربه، متخصص در ساخت وب‌سایت‌های سریع، امن و واکنش‌گرا با تمرکز بر جزئیات و ارائه تجربه کاربری منحصربه‌فرد برای هر
+              پروژه
+            </p>
+
+            <button
+              class="bg-[#465369] border border-blue-gray drop-shadow-2xl drop-shadow-white/20 text-white rounded w-60 cursor-pointer hover:bg-blue-gray transition-colors duration-300 px-6 py-5 font-bold">
+              بیایید شروع کنیم
+            </button>
+          </div>
+
+          <div class="w-1/3">
+            <img src="./src/images/heroImage.png" class="rounded-full" alt="" />
+          </div>
+        </div>
+
+       <div class="container px-4 sm:px-10 max-w-[1110px] mx-auto mt-24">
+  <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
     
-</body>
+    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/stripe.png" alt="Stripe Logo" />
+    </div>
+
+    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/Elastic.png" alt="Elastic Logo" />
+    </div>
+
+    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/paychex.png" alt="Paychex Logo" />
+    </div>
+
+    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/dropbox.png" alt="Dropbox Logo" />
+    </div>
+
+    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/clickup.png" alt="ClickUp Logo" />
+    </div>
+
+  </div>
+</div>
+      </section>
+    </main>
+  </body>
 </html>
