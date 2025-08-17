@@ -6,17 +6,15 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./dist/font-awesome.min.css" />
     <title>سایت شخصی طاها عطایی</title>
+   
   </head>
   <body>
     <header>
-      <nav class="max-w-[1110px] font-bold text-gray-light mx-auto flex justify-center items-center bg-dark rounded-b-xl min-h-[70px] sticky px-10">
+      <nav class="max-w-[1110px] font-bold text-gray-light mx-auto flex justify-center items-center bg-dark rounded-b-xl min-h-[70px] sticky px-4 sm:px-10">
         <div class="w-2/3">
-
-            <button class="rounded block sm:hidden border border-gray-light px-4 py-2">
-                <i class="fa fa-bars">
-
-                </i>
-            </button>
+          <button class="rounded flex justify-center items-center sm:hidden border border-gray-light px-3 py-2">
+            <i class="fa fa-bars"> </i>
+          </button>
 
           <ul class="sm:flex space-x-5 lg:space-x-16 justify-center hidden">
             <li class="text-white transition-colors duration-300">
@@ -53,10 +51,10 @@
     </header>
 
     <main class="-mt-20">
-      <section id="hero-section" class="bg-[#080808] pt-36 pb-10 w-full">
-        <div class="container flex gap-x-28 max-w-[1110px] justify-center items-center">
-          <div class="flex flex-col space-y-10 w-2/3 py-6 px-10 max-w-[538px]">
-            <h1 class="text-white font-bold text-5xl">طاها عطایی</h1>
+      <section id="hero-section" class="bg-[#080808] pt-36 pb-10 w-full px-4 xs:px-10">
+        <div class="container flex flex-col-reverse md:flex-row gap-y-10 md:gap-y-0 md:gap-x-10 lg:gap-x-28 max-w-[1110px] justify-center items-center">
+          <div class="flex flex-col space-y-10 w-full md:w-2/3 py-6 xs:px-10 max-w-[538px]">
+            <h1 class="text-white font-bold text-3xl xs:text-4xl sm:text-5xl max-md:mx-auto">طاها عطایی</h1>
 
             <p class="text-gray-light text-justify">
               توسعه‌دهنده وب و طراح رابط کاربری با تجربه، متخصص در ساخت وب‌سایت‌های سریع، امن و واکنش‌گرا با تمرکز بر جزئیات و ارائه تجربه کاربری منحصربه‌فرد برای هر
@@ -64,41 +62,195 @@
             </p>
 
             <button
-              class="bg-[#465369] border border-blue-gray drop-shadow-2xl drop-shadow-white/20 text-white rounded w-60 cursor-pointer hover:bg-blue-gray transition-colors duration-300 px-6 py-5 font-bold">
+              class="bg-[#465369] border border-blue-gray drop-shadow-2xl drop-shadow-white/20 text-white rounded xs:w-60 cursor-pointer hover:bg-blue-gray transition-colors duration-300 px-6 py-5 font-bold max-md:mx-auto">
               بیایید شروع کنیم
             </button>
           </div>
 
-          <div class="w-1/3">
-            <img src="./src/images/heroImage.png" class="rounded-full" alt="" />
+          <div class="w-full md:w-1/3">
+            <img src="./src/images/heroImage.png" class="rounded-full mx-auto" alt="" />
           </div>
         </div>
 
-       <div class="container px-4 sm:px-10 max-w-[1110px] mx-auto mt-24">
-  <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-    
-    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
-      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/stripe.png" alt="Stripe Logo" />
-    </div>
+        <div class="container px-4 sm:px-10 max-w-[1110px] mx-auto mt-24">
+          <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+              <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/stripe.png" alt="Stripe Logo" />
+            </div>
 
-    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
-      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/Elastic.png" alt="Elastic Logo" />
-    </div>
+            <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+              <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/Elastic.png" alt="Elastic Logo" />
+            </div>
 
-    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
-      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/paychex.png" alt="Paychex Logo" />
-    </div>
+            <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+              <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/paychex.png" alt="Paychex Logo" />
+            </div>
 
-    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
-      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/dropbox.png" alt="Dropbox Logo" />
-    </div>
+            <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+              <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/dropbox.png" alt="Dropbox Logo" />
+            </div>
 
-    <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
-      <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/clickup.png" alt="ClickUp Logo" />
-    </div>
+            <div class="border border-dark rounded flex items-center justify-center p-4 h-16 hover:border-white/30 transition-colors duration-300">
+              <img class="max-w-full max-h-full object-contain" src="./src/images/Logo/clickup.png" alt="ClickUp Logo" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-  </div>
-</div>
+      <section id="flagship" class="py-20 px-4 xs:px-10">
+        <div class="md:max-w-[900px] mx-auto">
+          <div class="flex flex-col gap-y-10 items-center">
+            <h2 class="text-orange text-3xl xs:text-4xl font-bold">پروژه های شاخص</h2>
+
+            <p class="text-center text-sm md:max-w-[546px]">
+              هر پروژه یک داستان دارد؛ از چالش‌های اولیه تا یافتن بهترین راه‌حل. اینجا می‌توانید سفر من در خلق هر محصول را ببینید
+            </p>
+          </div>
+
+          <div class="flex flex-col md:flex-row max-md:items-center gap-x-6 mt-16">
+            <div class="md:w-1/2 w-full overflow-hidden rounded-lg bg-red-200">
+              <img src="./src/images/Projects/image1.png" class="w-full h-full object-cover hover:scale-110 transition-all duration-1000" alt="" />
+            </div>
+
+            <div class="flex flex-col gap-y-10 w-full md:w-1/2 justify-between">
+              <div class="flex flex-col gap-y-6 pt-6">
+                <span class="text-orange text-xs font-bold bg-cream py-1 px-3 rounded-2xl self-start">اسم کار</span>
+
+                <a class="hover:text-orange transition-color duration-300" href="#"><h3 class="text-2xl font-bold">پلتفرم مدیریت مالی هوشمند</h3></a>
+
+                <p class="text-sm text-justify">
+                  یک پلتفرم جامع پرداخت آنلاین با قابلیت پردازش سریع تراکنش‌ها و امنیت بالا، طراحی و توسعه داده شد. این سامانه تجربه پرداخت کاربران را ساده‌تر و مطمئن‌تر
+                  کرده است
+                </p>
+              </div>
+
+              <a
+                href="#"
+                class="text-sm font-bold text-white bg-orange self-start py-3 px-5 rounded flex justify-center items-center gap-x-3 cursor-pointer hover:bg-orange/80 transition-colors duration-300">
+                دیدن مطالعه موردی <i class="fa fa-chevron-left" style="font-size: 12px"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="flex flex-col-reverse md:flex-row max-md:items-center gap-x-6 mt-20">
+            <div class="flex flex-col gap-y-10 w-full md:w-1/2 justify-between">
+              <div class="flex flex-col gap-y-6 pt-6">
+                <span class="text-blue text-xs font-bold bg-blue-light py-1 px-3 rounded-2xl self-start">فناوری آموزشی</span>
+
+                <a class="hover:text-blue transition-color duration-300" href="#"><h3 class="text-2xl font-bold">سامانه آموزش آنلاین تعاملی</h3></a>
+
+                <p class="text-sm pl-6 text-justify">
+                  یک پلتفرم آموزشی آنلاین طراحی و پیاده‌سازی شد که با ارائه محتوای تعاملی، آزمون‌های خودکار و گزارش پیشرفت، تجربه یادگیری را برای دانشجویان و مدرسین بهبود
+                  می‌بخشد
+                </p>
+              </div>
+
+              <a
+                href="#"
+                class="text-sm font-bold text-white bg-blue self-start py-3 px-5 rounded flex justify-center items-center gap-x-3 cursor-pointer hover:bg-blue/80 transition-colors duration-300">
+                ببین چطور انجام شد <i class="fa fa-chevron-left" style="font-size: 12px"></i>
+              </a>
+            </div>
+
+            <div class="md:w-1/2 w-full overflow-hidden rounded-lg bg-red-200">
+              <img src="./src/images/Projects/image2.png" class="w-full h-full object-cover hover:scale-110 transition-all duration-1000" alt="" />
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row max-md:items-center gap-x-6 mt-20">
+            <div class="md:w-1/2 w-full overflow-hidden rounded-lg bg-red-200">
+              <img src="./src/images/Projects/image3.png" class="w-full h-full object-cover hover:scale-110 transition-all duration-1000" alt="" />
+            </div>
+
+            <div class="flex flex-col gap-y-10 w-full md:w-1/2 justify-between">
+              <div class="flex flex-col gap-y-6 pt-6">
+                <span class="text-green text-xs font-bold bg-mint py-1 px-3 rounded-2xl self-start">فناوری دارویی</span>
+
+                <a class="hover:text-green transition-color duration-300" href="#"><h3 class="text-2xl font-bold">اپلیکیشن یادآور مصرف دارو</h3></a>
+
+                <p class="text-sm text-justify">
+                  سامانه جامع مدیریت داروخانه با قابلیت ثبت نسخه، مدیریت موجودی، و سفارش آنلاین طراحی و توسعه داده شد که فرآیند خرید و توزیع دارو را سریع‌تر و دقیق‌تر
+                  می‌کند
+                </p>
+              </div>
+
+              <a
+                href="#"
+                class="text-sm font-bold text-white bg-green self-start py-3 px-5 rounded flex justify-center items-center gap-x-3 cursor-pointer hover:bg-green/80 transition-colors duration-300">
+                دیدن مطالعه موردی <i class="fa fa-chevron-left" style="font-size: 12px"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-us" class="bg-black py-20 px-4 xs:px-10">
+        <div class="md:max-w-[900px] mx-auto">
+          <div class="flex flex-col gap-y-10 items-center text-center">
+            <h2 class="text-3xl sm:text-5xl text-white font-bold">آنچه مشتریان می‌گویند</h2>
+
+            <p class="text-sm font-normal max-w-[570px] text-gray-light">اینجا بخشی از تجربه و نظرات مشتریانم را می‌بینید که نتیجه همکاری ما در پروژه‌های مختلف بوده است</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 mt-16">
+            <div class="relative p-[1px] rounded-lg bg-gradient-to-r from-[#080808] to-[#484848] border-animate">
+
+              <img src="./src/images/quote.png" class="absolute left-4 -top-2" alt="">
+              <div class="rounded-lg bg-black py-6 px-8 flex flex-col justify-between h-full gap-y-16">
+                <p class="text-gray-light text-sm font-normal">
+                  طراحی وب‌سایت دقیقاً همونی شد که می‌خواستیم؛ سریع، زیبا و بدون هیچ مشکلی. همکاری با این تیم فوق‌العاده بود
+                </p>
+
+                <div class="flex items-center gap-x-4">
+                  <img class="rounded-full" src="./src/images/Profiles/profile1.png" alt="" />
+                  <span class="text-white font-bold text-sm">علی رضایی، مدیرعامل شرکت فناوری سبز</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-[1px] rounded-lg bg-gradient-to-r from-[#080808] to-[#484848] border-animate">
+
+              <img src="./src/images/quote.png" class="absolute left-4 -top-2" alt="">
+              <div class="rounded-lg bg-black py-6 px-8 flex flex-col justify-between h-full gap-y-16">
+                <p class="text-gray-light text-sm font-normal">
+                  از ایده تا اجرا همه‌چیز حرفه‌ای انجام شد. نتیجه نهایی واقعاً فراتر از انتظارات ما بود
+                </p>
+
+                <div class="flex items-center gap-x-4">
+                  <img class="rounded-full" src="./src/images/Profiles/profile2.png" alt="" />
+                  <span class="text-white font-bold text-sm">مریم احمدی، مدیر بازاریابی آژانس برندینگ</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-[1px] rounded-lg bg-gradient-to-r from-[#080808] to-[#484848] border-animate">
+
+              <img src="./src/images/quote.png" class="absolute left-4 -top-2" alt="">
+              <div class="rounded-lg bg-black py-6 px-8 flex flex-col justify-between h-full gap-y-16">
+                <p class="text-gray-light text-sm font-normal">
+                  پشتیبانی عالی، تحویل به موقع و کیفیت کار بی‌نقص. حتماً دوباره همکاری می‌کنیم
+                </p>
+
+                <div class="flex items-center gap-x-4">
+                  <img class="rounded-full" src="./src/images/Profiles/profile3.png" alt="" />
+                  <span class="text-white font-bold text-sm">آزاده تاجیک، موسس استارتاپ PayFast</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-[1px] rounded-lg bg-gradient-to-r from-[#080808] to-[#484848] border-animate">
+
+              <img src="./src/images/quote.png" class="absolute left-4 -top-2" alt="">
+              <div class="rounded-lg bg-black py-6 px-8 flex flex-col justify-between h-full gap-y-16">
+                <p class="text-gray-light text-sm font-normal">
+                  خلاقیت و دقت در اجرای پروژه واقعاً شگفت‌انگیز بود. نتیجه نهایی هم زیبا بود و هم کاربردی
+                </p>
+
+                <div class="flex items-center gap-x-4">
+                  <img class="rounded-full" src="./src/images/Profiles/profile4.png" alt="" />
+                  <span class="text-white font-bold text-sm">یاسمن درویشی ، مدیر محصول شرکت نوآوران دیتا</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
