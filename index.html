@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./dist/font-awesome.min.css" />
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <title>سایت شخصی طاها عطایی</title>
   </head>
   <body>
@@ -393,12 +392,13 @@
       </ul>
     </footer>
 
-    
-       <button class="fixed right-4 bottom-4 left-auto top-auto text-white bg-gray py-2 px-3 rounded-full">
+    <div x-data="{show:false}" x-init="window.addEventListener('scroll' , () => {show = window.scrollY > 200})">
+ <button x-transition x-show="show" @click="window.scrollTo({top:0 , behavior:'smooth'})" class="fixed right-4 bottom-4 left-auto top-auto text-white bg-gray py-2 px-3 rounded-full cursor-pointer">
         <i class="fa fa-chevron-up"></i>
       </button>
+    </div>
 
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-    <script src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
