@@ -16,7 +16,7 @@
 ---
 
 ##  درباره پروژه
-این قالب شخصی‌سازی‌شده برای نمایش پروژه‌ها یا نمونه‌کار‌ها هستش. با طراحی واکنش‌گرا (responsive)، سازگار با موبایل و بر پایه HTML/CSS و JavaScript ساخته شده است.
+این قالب شخصی‌سازی‌شده برای نمایش پروژه‌ها یا نمونه‌کار‌ها هستش. با طراحی واکنش‌گرا (responsive)، سازگار با موبایل و بر پایه HTML/CSS/Tailwind/AlpineJs و JavaScript ساخته شده است.
 
 ---
 
@@ -29,6 +29,7 @@
 
 ##  نصب و شروع استفاده
 1. ریپوزیتوری رو کلون کن:
+   
    ```bash
    git clone https://github.com/SHAKIB95/PersonalTemplate.git
    cd PersonalTemplate
