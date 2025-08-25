@@ -9,27 +9,27 @@
     <img src="https://img.shields.io/github/actions/workflow/status/SHAKIB95/PersonalTemplate/main.yml?branch=main&style=for-the-badge" alt="build status"/>
   </a>
   <a href="https://personal-template-fawn.vercel.app">
-  <img src="https://img.shields.io/badge/Demo-Live-blue?style=for-the-badge" alt="live demo"/>
+    <img src="https://img.shields.io/badge/Demo-Live-blue?style=for-the-badge" alt="live demo"/>
   </a>
 </p>
 
 ---
 
-##  درباره پروژه
-این قالب شخصی‌سازی‌شده برای نمایش پروژه‌ها یا نمونه‌کار‌ها هستش. با طراحی واکنش‌گرا (responsive)، سازگار با موبایل و بر پایه HTML/CSS/Tailwind/AlpineJs و JavaScript ساخته شده است.
+## 📌 About the Project
+A customizable template designed to showcase your projects or portfolio.  
+It is fully responsive, mobile-friendly, and built with **HTML**, **CSS/Tailwind**, **Alpine.js**, and plain **JavaScript**.
 
 ---
 
-##  ویژگی‌ها
-- طراحی مدرن و واکنش‌گرا  
-- ساختار ساده و قابل ویرایش  
-- آماده برای ترکیب با React/Next/Vue  
+## ✨ Features
+- Modern and responsive design  
+- Simple and easy-to-edit structure  
+- Ready to integrate with React / Next.js / Vue  
 
 ---
 
-##  نصب و شروع استفاده
-1. ریپوزیتوری رو کلون کن:
-   
+## 🚀 Getting Started
+1. Clone the repository:
    ```bash
    git clone https://github.com/SHAKIB95/PersonalTemplate.git
    cd PersonalTemplate
