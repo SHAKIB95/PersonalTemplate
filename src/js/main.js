@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../input.css";
 import emailjs from "@emailjs/browser";
+import '../css/font-awesome.min.css';
 
 window.Alpine = Alpine;
 
