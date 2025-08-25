@@ -8,7 +8,9 @@
   <a href="https://github.com/SHAKIB95/PersonalTemplate/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/SHAKIB95/PersonalTemplate/main.yml?branch=main&style=for-the-badge" alt="build status"/>
   </a>
+  <a href="https://personal-template-fawn.vercel.app">
   <img src="https://img.shields.io/badge/Demo-Live-blue?style=for-the-badge" alt="live demo"/>
+  </a>
 </p>
 
 ---
