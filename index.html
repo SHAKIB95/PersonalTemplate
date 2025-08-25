@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./dist/font-awesome.min.css" />
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="./dist/output.css" />
     <title>سایت شخصی طاها عطایی</title>
   </head>
-  <body>
+
+  <body x-data="{open:false}">
     <header>
-      <nav class="max-w-[1110px] font-bold text-gray-light mx-auto flex justify-center items-center bg-dark rounded-b-xl min-h-[70px] sticky px-4 sm:px-10">
+      <nav class="max-w-[1110px] z-10 font-bold text-gray-light mx-auto flex justify-center items-center bg-dark rounded-b-xl min-h-[70px] sticky px-4 sm:px-10">
         <div class="w-2/3">
-          <button class="rounded flex justify-center items-center sm:hidden border border-gray-light px-3 py-2">
+          <button @click="open = true" class="rounded flex justify-center items-center sm:hidden border border-gray-light px-3 py-2">
             <i class="fa fa-bars"></i>
           </button>
 
@@ -369,9 +372,6 @@
           </form>
         </div>
       </section>
-
-   
-
     </main>
 
     <footer class="bg-dark py-5 flex items-center justify-between px-6">
@@ -390,14 +390,40 @@
         </li>
       </ul>
     </footer>
-
     <div x-data="{show:false}" x-init="window.addEventListener('scroll' , () => {show = window.scrollY > 200})">
- <button x-transition x-show="show" @click="window.scrollTo({top:0 , behavior:'smooth'})" class="fixed right-4 bottom-4 left-auto top-auto text-white bg-gray py-2 px-3 rounded-full cursor-pointer">
+      <button
+        x-transition
+        x-show="show"
+        @click="window.scrollTo({top:0 , behavior:'smooth'})"
+        class="fixed right-4 bottom-4 left-auto top-auto text-white bg-gray py-2 px-3 rounded-full cursor-pointer">
         <i class="fa fa-chevron-up"></i>
       </button>
     </div>
 
-    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-    <script type="module" src="./src/js/main.js"></script>
+    <div id="offcanvas" class="!fixed !inset-0 !z-40 !bg-black/60 !backdrop-blur-sm">
+      <div class="!absolute !right-0 !top-0 !z-50 !h-screen !w-96 !bg-gray !p-4 !shadow-lg">
+        <button>
+          <i class="fa fa-close"></i>
+        </button>
+
+        <ul class="flex flex-col space-x-5 lg:space-x-16 justify-center">
+          <li class="text-white transition-colors duration-300">
+            <a href="#">خانه</a>
+          </li>
+          <li class="hover:text-white transition-colors duration-300">
+            <a href="#flagship">مطالعات موردی</a>
+          </li>
+          <li class="hover:text-white transition-colors duration-300">
+            <a href="#testimonials">نظرات</a>
+          </li>
+          <li class="hover:text-white transition-colors duration-300">
+            <a href="#latest-projects">کارهای اخیر</a>
+          </li>
+          <li class="hover:text-white transition-colors duration-300">
+            <a href="#contact-us">تماس</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
