@@ -72,3 +72,6 @@ body {
                   0 0 40px rgba(27, 27, 27, 0.5);
     }
 
+    [x-cloak]{
+      display: none!important;
+    }
